@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Extraño Mucho</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="container">
+        <h1 class="title">Te Extraño Mucho</h1>
+        <div class="names">
+            <span class="name dylan">Dylan</span>
+            <div class="heart-container">
+                <div class="heart"></div>
+            </div>
+            <span class="name mel">Mel</span>
+        </div>
+        <div class="counters">
+            <div class="counter-section dylan-section">
+                <div id="counterDylan" class="counter">0</div>
+                <button id="dylanButton" class="extrano-button">Dylan Te Extraña</button>
+                <div id="dylanNotification" class="notification">¡Mel te extraña! 💖</div>
+            </div>
+            <div class="counter-section mel-section">
+                <div id="counterMel" class="counter">0</div>
+                <button id="melButton" class="extrano-button">Mel Te Extraña</button>
+                <div id="melNotification" class="notification">¡Dylan te extraña! 💖</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
